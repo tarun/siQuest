@@ -1,0 +1,7 @@
+2008-12-08 13:19:02,967 INFO [edu.villanova.siquest.SqQueryBuilder] - Previous index deleted
+2008-12-08 13:19:03,101 DEBUG [edu.villanova.siquest.SqIndexer] - Index created at index using analyzer org.apache.lucene.analysis.standard.StandardAnalyzer@1de0b5e
+2008-12-08 13:19:03,102 INFO [edu.villanova.siquest.SqQueryBuilder] - Index created
+2008-12-08 13:19:03,102 INFO [edu.villanova.siquest.SqQueryBuilder] - Start indexing
+2008-12-08 13:19:03,305 DEBUG [edu.villanova.siquest.SqIndexer] - Added C:\Users\Tarun\Documents\CSC9010\AliceInWonderland.txt
+2008-12-08 13:19:03,395 INFO [edu.villanova.siquest.SqQueryBuilder] - Finished indexing
+2008-12-08 13:19:03,399 DEBUG [edu.villanova.siquest.SqIndexer] - Index is optimized

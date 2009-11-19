@@ -1,0 +1,21 @@
+<script type='text/javascript' src='/javascripts/multifile.js'></script>
+<div id="mainimg">
+<form action='search' method='post' id='mainForm' enctype='multipart/form-data'>
+<!-- <div class="formArea"> -->
+<!-- <fieldset class="standOut"> -->
+<h4>Find content like</h4>
+
+      
+      <input id="fileField" type="file" name="files[file1]">
+      <div id="fileList"></div>
+      <script>
+          var fileSelector = new MultiSelector(document.getElementById( 'fileList' ), 3);
+          fileSelector.addFileElement(document.getElementById( 'fileField' ));
+      </script>
+      <br />
+<%= select :options, :analyzer, @analyzers, :prompt => 'Choose Analyzer' %>      <%= submit_tag 'Search' %>
+<!-- </fieldset> -->
+<!--</div>-->
+<div class='formControls'></div>
+</form>
+</div>

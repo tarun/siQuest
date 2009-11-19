@@ -1,0 +1,12 @@
+<div id="leftbar">
+        <h2>Results</h2>
+
+<% if @jsonResponse and @jsonResponse['results']
+    @jsonResponse['results'].each{ |result|
+    %><%= link_to result['title'], result['url']  %>
+      <p><%= result['summary'] %></p>
+      
+      <br />      
+    <%}    
+  end %>
+</div>
